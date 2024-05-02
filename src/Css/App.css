@@ -1,0 +1,173 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Layout wrapper */
+.layout-wrapper {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme */
+.dark-theme {
+  background-color: #067b7b;
+  color: white;
+}
+
+.dark-theme .ant-layout-header {
+  background-color: #589d9d;
+  color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.dark-theme .ant-layout-sider {
+  background-color: #589d9d;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 64px; /* Adjust based on the height of your header */
+  bottom: 0;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+
+
+.dark-theme .ant-btn-primary,
+.dark-theme .ant-layout-content {
+  color: white;
+}
+
+.dark-theme .ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light.css-dev-only-do-not-override-mzwlov {
+  background-color: #589d9d;
+  color: white !important;
+}
+
+.dark-theme .ant-breadcrumb-link {
+  color: white;
+  margin-left: 10px;
+}
+
+.dark-theme .ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  color: #fff;
+}
+
+.dark-theme .ant-layout-content {
+  background-color: #067b7b;
+}
+
+.dark-theme .ant-layout-header .ant-typography {
+  color: rgb(16, 15, 15);
+}
+
+.dark-theme .ant-menu-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: sticky;
+  top: 20px; /* Adjust as needed based on your layout */
+  z-index: 1000; /* Ensure it's above other elements if needed */
+}
+
+  /* Light theme */
+  .light-theme {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .light-theme .ant-layout-header {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+  }
+  
+  .light-theme .ant-layout-sider {
+    background-color: #fff;
+    position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 64px; /* Adjust based on the height of your header */
+  bottom: 0;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .light-theme .ant-breadcrumb-link,
+  .light-theme .ant-menu-item,
+  .light-theme .ant-btn-primary {
+    color: #000;
+  }
+  
+  .light-theme .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+  }
+  
+
+  /* Home Css */
+  .dark-theme .dashboard-box {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .dark-theme .icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+
+  .light-theme .dashboard-box {
+    background-color: #2db1e1;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .light-theme .icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  /* Login */
+  /* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.login-form-title {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-error {
+  color: red;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.login-submit-btn {
+  width: 100%;
+}
+
+/* Landing page */
